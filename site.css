@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+
+a:link {
+  color: #bdaaa6;
+  text-shadow: 2px 2px 4px;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #bdaaa6;
+  text-shadow: 2px 2px 4px;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: none;
+  text-shadow: 3 3 6px #ff0000;
+  text-shadow: none;
+  -webkit-transition: 300ms linear 0s;
+  -moz-transition: 300ms linear 0s;
+  -o-transition: 300ms linear 0s;
+  transition: 300ms linear 0s;
+  outline: 0 none;
+}
+
+h1 {
+  color: #A30000;
+  text-shadow: 2px 2px 4px;
+  font-size: 30px;
+  font-family: MS Gothic;
+}
+
+p {
+  font-size: 20px;
+  color: #A3A3A3;
+
+  font-family: MS Gothic;
+}
+
+body {
+  background-color: black;
+  background-size: 40px 40px;
+  background-image:
+    linear-gradient(to right, #1c1c1c 1px, transparent 1px),
+    linear-gradient(to bottom, #1c1c1c 1px, transparent 1px);
+}
+
+.light-mode {
+  background-color: #edebda;
+  background-size: 40px 40px;
+  background-image:
+    linear-gradient(to right, #1c1c1c 1px, transparent 1px),
+    linear-gradient(to bottom, #1c1c1c 1px, transparent 1px);
+
+
+}
+
+.bgimage {
+  background-image: url(https://cdn.discordapp.com/attachments/933186436801388606/1038323632084111430/triowb_36.png);
+  background-position: right bottom;
+  background-repeat: no-repeat;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  opacity: 0.5;
+  z-index: -1;
+
+}
+
+.header {
+  height: 100px;
+  max-width: 100%;
+  background-color: transparent;
+  background-image: url(https://cdn.discordapp.com/attachments/933186436801388606/1040000746369851432/headerlogo.png);
+  background-repeat: no-repeat;
+  z-index: 0;
+
+}
+
+.sidenav {
+  background-image: url(https://cdn.discordapp.com/attachments/933186436801388606/1038553573388197889/sidebar2.png);
+  background-color: rgba(20, 19, 19, 0.8);
+  background-repeat: no-repeat;
+  width: 250px;
+  padding: 10px;
+  margin: 0px;
+  border-radius: 0px 10px 2px 10px;
+  float: left;
+  display: block;
+  font-family: MS Gothic;
+  font-size: 20px;
+}
+
+.main {
+  width: 1300px;
+  margin-left: 0px;
+  font-size: 20px;
+  color: #A3A3A3;
+  text-align: center;
+  font-family: MS Gothic;
+}
+
+.box {
+  width: 600px;
+  padding: 30px 50px;
+  margin: 16px;
+  background-color: rgba(20, 19, 19, 0.8);
+  text-align: left;
+  border: solid 0px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+#scroll {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  background-color: rgba(20, 19, 19, 0.8);
+  color: #A3A3A3;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 10px;
+  font-size: 20px;
+   font-family: MS Gothic;
+     -webkit-transition: 300ms linear 0s;
+  -moz-transition: 300ms linear 0s;
+  -o-transition: 300ms linear 0s;
+  transition: 300ms linear 0s;
+  outline: 0 none;
+}
+
+#scroll:hover {
+  background-color: #555;
+  color: #fff;
+}
+
+table {
+  font-family: MS Gothic;
+  border-collapse: collapse;
+  width: 100%;
+  width: 800px;
+}
+
+td {
+  border: 1px solid #000;
+  text-align: left;
+  padding: 8px;
+  background-color:#fdfdfd;
+  color: #000;
+  font-family: Arial;
+  font-size: 13px;
+}
+
+th {
+  border: 1px solid #fff;
+  text-align: left;
+  padding: 8px;
+  background-color:#755f3e;
+  color: #fff;
+  font-family: Arial;
+  font-size: 13px;
+}
