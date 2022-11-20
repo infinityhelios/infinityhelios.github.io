@@ -1,5 +1,5 @@
 window.onload = () => {
-    fetch('https://infinityhelios.github.io/sidenav.html')
+    fetch('sidenav.html')
     .then(data => {
       return data.text()
     })
