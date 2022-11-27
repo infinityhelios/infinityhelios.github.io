@@ -1,4 +1,7 @@
-@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+@font-face {
+  font-family: RodinPro;
+  src: url(font.otf);
+}
 
 a:link {
   color: #bdaaa6;
@@ -31,14 +34,14 @@ h1 {
   color: #A30000;
   text-shadow: 2px 2px 4px;
   font-size: 30px;
-  font-family: MS Gothic;
+  font-family: RodinPro;
 }
 
 p {
   font-size: 20px;
   color: #A3A3A3;
 
-  font-family: MS Gothic;
+  font-family: RodinPro;
 }
 
 body {
@@ -91,7 +94,7 @@ body {
   border-radius: 0px 10px 2px 10px;
   float: left;
   display: block;
-  font-family: MS Gothic;
+  font-family: RodinPro;
   font-size: 20px;
 }
 
@@ -101,7 +104,7 @@ body {
   font-size: 20px;
   color: #A3A3A3;
   text-align: center;
-  font-family: MS Gothic;
+  font-family: RodinPro;
 }
 
 .box {
@@ -128,7 +131,7 @@ body {
   padding: 15px;
   border-radius: 10px;
   font-size: 20px;
-   font-family: MS Gothic;
+   font-family: RodinPro;
      -webkit-transition: 300ms linear 0s;
   -moz-transition: 300ms linear 0s;
   -o-transition: 300ms linear 0s;
@@ -142,7 +145,7 @@ body {
 }
 
 table {
-  font-family: MS Gothic;
+  font-family: RodinPro;
   border-collapse: collapse;
   width: 100%;
   width: 800px;
